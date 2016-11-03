@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350C95921DCBE593003C9AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C95911DCBE593003C9AC8 /* AppDelegate.swift */; };
+		350C95941DCBE593003C9AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C95931DCBE593003C9AC8 /* ViewController.swift */; };
+		350C95971DCBE593003C9AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350C95951DCBE593003C9AC8 /* Main.storyboard */; };
+		350C95991DCBE593003C9AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350C95981DCBE593003C9AC8 /* Assets.xcassets */; };
+		350C959C1DCBE593003C9AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350C959A1DCBE593003C9AC8 /* LaunchScreen.storyboard */; };
+		350C95A71DCBE594003C9AC8 /* trombolyseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C95A61DCBE594003C9AC8 /* trombolyseTests.swift */; };
+		350C95B21DCBE594003C9AC8 /* trombolyseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C95B11DCBE594003C9AC8 /* trombolyseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350C95A31DCBE594003C9AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C95861DCBE593003C9AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C958D1DCBE593003C9AC8;
+			remoteInfo = trombolyse;
+		};
+		350C95AE1DCBE594003C9AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C95861DCBE593003C9AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C958D1DCBE593003C9AC8;
+			remoteInfo = trombolyse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350C958E1DCBE593003C9AC8 /* trombolyse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trombolyse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C95911DCBE593003C9AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350C95931DCBE593003C9AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		350C95961DCBE593003C9AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350C95981DCBE593003C9AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350C959B1DCBE593003C9AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350C959D1DCBE593003C9AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350C95A21DCBE594003C9AC8 /* trombolyseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trombolyseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C95A61DCBE594003C9AC8 /* trombolyseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trombolyseTests.swift; sourceTree = "<group>"; };
+		350C95A81DCBE594003C9AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350C95AD1DCBE594003C9AC8 /* trombolyseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trombolyseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C95B11DCBE594003C9AC8 /* trombolyseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trombolyseUITests.swift; sourceTree = "<group>"; };
+		350C95B31DCBE594003C9AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350C958B1DCBE593003C9AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C959F1DCBE594003C9AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C95AA1DCBE594003C9AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350C95851DCBE593003C9AC8 = {
+			isa = PBXGroup;
+			children = (
+				350C95901DCBE593003C9AC8 /* trombolyse */,
+				350C95A51DCBE594003C9AC8 /* trombolyseTests */,
+				350C95B01DCBE594003C9AC8 /* trombolyseUITests */,
+				350C958F1DCBE593003C9AC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350C958F1DCBE593003C9AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350C958E1DCBE593003C9AC8 /* trombolyse.app */,
+				350C95A21DCBE594003C9AC8 /* trombolyseTests.xctest */,
+				350C95AD1DCBE594003C9AC8 /* trombolyseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350C95901DCBE593003C9AC8 /* trombolyse */ = {
+			isa = PBXGroup;
+			children = (
+				350C95911DCBE593003C9AC8 /* AppDelegate.swift */,
+				350C95931DCBE593003C9AC8 /* ViewController.swift */,
+				350C95951DCBE593003C9AC8 /* Main.storyboard */,
+				350C95981DCBE593003C9AC8 /* Assets.xcassets */,
+				350C959A1DCBE593003C9AC8 /* LaunchScreen.storyboard */,
+				350C959D1DCBE593003C9AC8 /* Info.plist */,
+			);
+			path = trombolyse;
+			sourceTree = "<group>";
+		};
+		350C95A51DCBE594003C9AC8 /* trombolyseTests */ = {
+			isa = PBXGroup;
+			children = (
+				350C95A61DCBE594003C9AC8 /* trombolyseTests.swift */,
+				350C95A81DCBE594003C9AC8 /* Info.plist */,
+			);
+			path = trombolyseTests;
+			sourceTree = "<group>";
+		};
+		350C95B01DCBE594003C9AC8 /* trombolyseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350C95B11DCBE594003C9AC8 /* trombolyseUITests.swift */,
+				350C95B31DCBE594003C9AC8 /* Info.plist */,
+			);
+			path = trombolyseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350C958D1DCBE593003C9AC8 /* trombolyse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C95B61DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyse" */;
+			buildPhases = (
+				350C958A1DCBE593003C9AC8 /* Sources */,
+				350C958B1DCBE593003C9AC8 /* Frameworks */,
+				350C958C1DCBE593003C9AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trombolyse;
+			productName = trombolyse;
+			productReference = 350C958E1DCBE593003C9AC8 /* trombolyse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350C95A11DCBE594003C9AC8 /* trombolyseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C95B91DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyseTests" */;
+			buildPhases = (
+				350C959E1DCBE594003C9AC8 /* Sources */,
+				350C959F1DCBE594003C9AC8 /* Frameworks */,
+				350C95A01DCBE594003C9AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C95A41DCBE594003C9AC8 /* PBXTargetDependency */,
+			);
+			name = trombolyseTests;
+			productName = trombolyseTests;
+			productReference = 350C95A21DCBE594003C9AC8 /* trombolyseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350C95AC1DCBE594003C9AC8 /* trombolyseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C95BC1DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyseUITests" */;
+			buildPhases = (
+				350C95A91DCBE594003C9AC8 /* Sources */,
+				350C95AA1DCBE594003C9AC8 /* Frameworks */,
+				350C95AB1DCBE594003C9AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C95AF1DCBE594003C9AC8 /* PBXTargetDependency */,
+			);
+			name = trombolyseUITests;
+			productName = trombolyseUITests;
+			productReference = 350C95AD1DCBE594003C9AC8 /* trombolyseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350C95861DCBE593003C9AC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "CS Group";
+				TargetAttributes = {
+					350C958D1DCBE593003C9AC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+					};
+					350C95A11DCBE594003C9AC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 350C958D1DCBE593003C9AC8;
+					};
+					350C95AC1DCBE594003C9AC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 350C958D1DCBE593003C9AC8;
+					};
+				};
+			};
+			buildConfigurationList = 350C95891DCBE593003C9AC8 /* Build configuration list for PBXProject "trombolyse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350C95851DCBE593003C9AC8;
+			productRefGroup = 350C958F1DCBE593003C9AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350C958D1DCBE593003C9AC8 /* trombolyse */,
+				350C95A11DCBE594003C9AC8 /* trombolyseTests */,
+				350C95AC1DCBE594003C9AC8 /* trombolyseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350C958C1DCBE593003C9AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C959C1DCBE593003C9AC8 /* LaunchScreen.storyboard in Resources */,
+				350C95991DCBE593003C9AC8 /* Assets.xcassets in Resources */,
+				350C95971DCBE593003C9AC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C95A01DCBE594003C9AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C95AB1DCBE594003C9AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350C958A1DCBE593003C9AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C95941DCBE593003C9AC8 /* ViewController.swift in Sources */,
+				350C95921DCBE593003C9AC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C959E1DCBE594003C9AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C95A71DCBE594003C9AC8 /* trombolyseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C95A91DCBE594003C9AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C95B21DCBE594003C9AC8 /* trombolyseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350C95A41DCBE594003C9AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C958D1DCBE593003C9AC8 /* trombolyse */;
+			targetProxy = 350C95A31DCBE594003C9AC8 /* PBXContainerItemProxy */;
+		};
+		350C95AF1DCBE594003C9AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C958D1DCBE593003C9AC8 /* trombolyse */;
+			targetProxy = 350C95AE1DCBE594003C9AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350C95951DCBE593003C9AC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350C95961DCBE593003C9AC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350C959A1DCBE593003C9AC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350C959B1DCBE593003C9AC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350C95B41DCBE594003C9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350C95B51DCBE594003C9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350C95B71DCBE594003C9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		350C95B81DCBE594003C9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		350C95BA1DCBE594003C9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trombolyse.app/trombolyse";
+			};
+			name = Debug;
+		};
+		350C95BB1DCBE594003C9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trombolyse.app/trombolyse";
+			};
+			name = Release;
+		};
+		350C95BD1DCBE594003C9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = trombolyse;
+			};
+			name = Debug;
+		};
+		350C95BE1DCBE594003C9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = trombolyseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csgroup.trombolyse.DanielMora.trombolyseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = trombolyse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350C95891DCBE593003C9AC8 /* Build configuration list for PBXProject "trombolyse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C95B41DCBE594003C9AC8 /* Debug */,
+				350C95B51DCBE594003C9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C95B61DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C95B71DCBE594003C9AC8 /* Debug */,
+				350C95B81DCBE594003C9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		350C95B91DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C95BA1DCBE594003C9AC8 /* Debug */,
+				350C95BB1DCBE594003C9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		350C95BC1DCBE594003C9AC8 /* Build configuration list for PBXNativeTarget "trombolyseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C95BD1DCBE594003C9AC8 /* Debug */,
+				350C95BE1DCBE594003C9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350C95861DCBE593003C9AC8 /* Project object */;
+}
